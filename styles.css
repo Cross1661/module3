@@ -1,0 +1,81 @@
+*{
+    box-sizing: border-box;
+}
+.navbar{
+    background-color: lightskyblue;
+    border: 1px solid black;
+}
+.navbar-brand h1{
+    color: black;
+    font-size: 3em;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px whitesmoke;
+    line-height: 50px;
+}
+
+.navbar-brand a:hover,a:focus{
+    text-decoration: none;
+
+}
+h1:hover,:focus{
+    color: white;
+    text-shadow: 2px 2px 2px black;
+}
+section{
+    
+    background-color: black;
+    padding: 15px;
+    margin-top: 50px;
+    
+    border: 5px solid lightblue;
+    
+}
+h3,h4,h5{
+    font-size: 4em;
+    text-align: center;
+}
+
+p{
+    font-size: 1.5em;
+    padding: 30px 50px 50px;
+
+    color:white;
+    text-align: center;
+}
+
+#chicken{
+    color:red;
+    padding-top: 20px;
+}
+#beef{
+    color:palevioletred;
+    padding-top: 20px;
+
+}
+#sushi{
+    color: lemonchiffon;
+    padding-top: 20px;
+
+}
+.container{
+    width: 80%;
+}
+section a{
+    position: relative;
+    float: right;
+    bottom: 10px;
+}
+#toggle-button{
+    padding: 0px;
+    border-radius: 5px;
+    
+}
+.navbar-collapse{
+    text-align: center;
+    background-color: lightgray;
+    font-size: 1.2em;
+}
+.navbar-collapse a:hover,:focus,:active{
+    background-color: darkgrey;
+
+}
